@@ -1,37 +1,124 @@
-## Welcome to GitHub Pages
+#js基础第一课
 
-You can use the [editor on GitHub](https://github.com/goudinghong/goudinghong.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+###了解内容
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+----
+	1，了解软件，程序和计算机语言的关系
+	2，程序开发的过程
+	3，JavaScript的发展史和体系；
 
-### Markdown
+###掌握内容
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+----
+	1，JavaScript的特点
+	2，算法
+	3，流程图
+	4.安装nodejs；
 
-```markdown
-Syntax highlighted code block
+### 什么是软件 程序 和 计算机语言
 
-# Header 1
-## Header 2
-### Header 3
+----
+	软件是计算机程序、程序所用的数据以及有关文档资料的集合
+	是一系列按照特定顺序组织的计算机数据和指令的集合，按照特定顺序组织的
+	电脑数据和指令的集合
+	简单来说 具有一定功能的各种电脑程序，称为软件  再简单点 软件就是一种程序
+	
+	计算机语言 是指用于人与计算机之间通讯的语言
+	它是人与计算机之间传递信息的媒介
 
-- Bulleted
-- List
+### 程序开发过程
 
-1. Numbered
-2. List
+![](images/cxkf.jpg)
 
-**Bold** and _Italic_ and `Code` text
+### 算法
 
-[Link](url) and ![Image](src)
-```
+>算法通常是指解题方案的准确而完整的描述，是一系列解决问题的清晰指令
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**算法的特性**
 
-### Jekyll Themes
+----
+	1，明确性：算法的每一个步骤都很确切
+	
+	2，有效用：算法的每一个步骤都能够通过基本运算有效地执行,并得到确定的结果
+	
+	3，有限性：算法由有限的步骤组成
+	
+	4, 输入项：一个算法有0个或多个输入，以刻画运算对象的初始情况，所谓0个输入是指算法本身定出了初始条件；
+	
+	5， 输出项：一个算法有一个或多个输出，以反映对输入数据加工后的结果。没有输出的算法是毫无意义的；
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/goudinghong/goudinghong.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**算法的类型**
 
-### Support or Contact
+----
+	1，算术运算：加减乘除等运算
+	
+	2，逻辑运算：或，且，非运算
+	
+	3，关系运算：大于，小于，等于，不等于运算
+	
+	4，数据传输：输入，输出，赋值等运算
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+##流程图##
+
+>流程图就是给定的算法用一种图形进行解法，流程图又称为框图，它用规定的一系列图形、流程线及文字说明来表示算法中的基本操作和控制流程，其优点是形象直观、简单易懂、便于修改和交流。
+>
+>
+>![](images/flow_02.bmp)
+>
+>![](images/flow_01.bmp)
+>
+>>**1. 顺序结构**
+>![](images/flow_03.bmp)
+>
+>**2. 选择结构** 
+>![](images/flow_04.bmp)
+>
+>**3. 循环结构**
+>![](images/flow_05.bmp) ![](images/flow_06.bmp)
+
+
+
+###js发展史和体系
+
+####什么js
+
+	JS，是JavaScript的缩写形式，而JavaScript是一种基于对象和事件驱动并且具有相对安全性的客户端脚本语言。
+
+	>浏览器脚本解释语言	
+	>在1995年时，由Netscape公司的Brendan Eich，在网景导航者浏览器上首次设计实现而成
+	>借用java之名，但和java没有关系
+	>ECMA定为标准  前者是实现  后者是标准
+
+###为什么学习js?###
+用户体验师，
+ >- **操作浏览器**
+ >
+ >发明的目的就是作为浏览器内置脚本语言。用来操控浏览器，它是唯一一种通用的浏览器语言，所有主流浏览器都支持。JavaScript 语句是发给浏览器的命令。这些命令的作用是告诉浏览器要做的事情。
+ >
+ >- **广泛的领域使用**
+ >
+ >1，html5的出现,使得浏览器的功能增强，不再仅仅是一个网页，而更像是一个平台。js因为得以调用
+    更多的系统功能，比如图像操作，摄像头，麦克风等等
+ >
+ >2，node.js的出现。
+ >Node.js项目使得JavaScript可以用于开发服务器端的大型项目，网站的前后端都用JavaScript开发已经成为了现实。
+ >
+ >3，数据库的操作
+ >JavaScript甚至也可以用来操作数据库。NoSQL数据库这个概念，本身就是在JSON（JavaScript Object Notation，JavaScript对象表示法）格式的基础上诞生的，大部分NoSQL数据库允许JavaScript直接操作。
+ >
+ >4，跨移动平台
+ >PhoneGap项目使得JavaScript可以开发在多种移动平台（iOS和Android）上使用的应用程序。Mozilla基金会的手机操作系统Firefox OS，更是直接将JavaScript作为操作系统的平台语言。
+ >
+ >5，内嵌脚本语言
+ >越来越多的应用程序，将JavaScript作为内嵌的脚本语言，比如Adobe公司的著名PDF阅读器Acrobat、Linux桌面环境GNOME 3。
+
+###js能做什么
+	>在网页上增加，删除，修改各种元素及属性
+	>在html中写入文本
+	>响应网页事件，并进行处理
+	>数据合法性验证
+	>检测浏览器版本及信息
+	>创建并使用cookie
+###安装node
+
+>Node.js是一个Javascript运行环境(runtime)。实际上它是对Google V8引擎进行了封装。V8引 擎执行Javascript的速度非常快，性能非常好。Node.js对一些特殊用例进行了优化，提供了替代的API，使得V8在非浏览器环境下运行得更好。
